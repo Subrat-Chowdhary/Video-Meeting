@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "viliyocalling",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/fav1.png",
   },
 };
 
