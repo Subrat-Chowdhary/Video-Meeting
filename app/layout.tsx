@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/viliyo1.png",
+            logoImageUrl: "/icons/viliyologo.svg",
           },
           variables: {
             colorText: "#fff",

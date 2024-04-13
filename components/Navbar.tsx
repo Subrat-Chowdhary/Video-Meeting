@@ -9,8 +9,8 @@ const Navbar = () => {
     <nav className="flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
       <Link href="/" className="flex items-center gap-1">
         <Image
-          src="/icons/viliyo1.png"
-          width={260}
+          src="/icons/viliyologo.svg"
+          width={120}
           height={60}
           alt="viliyologo"
           className="max-sm:size-10"
@@ -21,7 +21,6 @@ const Navbar = () => {
         <SignedIn>
           <UserButton afterSignOutUrl="/sign-in" />
         </SignedIn>
-
         <MobileNav />
       </div>
     </nav>
