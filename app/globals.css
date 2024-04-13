@@ -81,6 +81,10 @@
 .cl-providerIcon__apple {
     filter: invert(1)
   }
+
+  .cl-button__github {
+    filter: invert(1)
+  }
 /* =============================== */
 
 @layer utilities {
