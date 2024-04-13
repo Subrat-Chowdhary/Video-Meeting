@@ -1,13 +1,12 @@
 'use client';
 import { useUser } from "@clerk/nextjs";
 import MeetingTypeList from '@/components/MeetingTypeList';
-import Image from "next/image";
 
 const Home = () => {
   const now = new Date();
   const { user } = useUser();
 
-  const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+  // const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
   const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format(now);
 
   return (
