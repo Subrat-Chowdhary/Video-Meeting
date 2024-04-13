@@ -75,7 +75,7 @@ const MeetingSetup = ({
         <DeviceSettings />
       </div>
       <Button
-        className="rounded-md bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8 px-4 py-2.5"
+        className="bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8 py-2.5"
         onClick={() => {
           call.join();
 
