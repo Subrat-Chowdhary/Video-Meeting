@@ -17,7 +17,13 @@ const Home = () => {
             Development Environment..
           </h2>
           <div className="flex flex-col gap-2">
-            <h1 className="text-4xl font-extrabold lg:text-2xl md:text-xl sm:text-lg">Welcome <span className="text-yellow-400">{user?.firstName} !</span></h1>
+            <h1 className="text-4xl font-extrabold lg:text-2xl">Welcome <span className="text-yellow-400">{user?.firstName}</span></h1>
+            {/* <Image
+              src={user?.imageUrl}
+              alt="profile"
+              width={100}
+              height={100}
+            /> */}
             <p className="text-lg font-medium text-sky-1 lg:text-2xl">{date}</p>
           </div>
         </div>
