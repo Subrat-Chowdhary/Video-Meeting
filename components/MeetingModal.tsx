@@ -47,7 +47,7 @@ const MeetingModal = ({
           {children}
           <Button
             className={
-              "bg-blue-1 focus-visible:ring-0 focus-visible:ring-offset-0"
+              "bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8 focus-visible:ring-0 focus-visible:ring-offset-0"
             }
             onClick={handleClick}
           >
