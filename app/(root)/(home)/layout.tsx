@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata: Metadata = {
-  title: 'viliyocalling',
-  description: 'A workspace for your team, powered by Stream Chat and Clerk.',
+  title: 'viliyo Meeting',
+  description: 'Powered by Stream Chat and Clerk.',
 };
 
 const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {
