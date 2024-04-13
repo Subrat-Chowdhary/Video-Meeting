@@ -47,7 +47,7 @@ const MobileNav = () => {
                         className={cn(
                           'flex gap-4 items-center p-4 rounded-lg w-full max-w-60',
                           {
-                            'bg-blue-1': isActive,
+                            'bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8': isActive,
                           }
                         )}
                       >

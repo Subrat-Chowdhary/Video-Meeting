@@ -22,7 +22,7 @@ const Sidebar = () => {
               className={cn(
                 'flex gap-4 items-center p-4 rounded-lg justify-start',
                 {
-                  'bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl hover:animate-pulse transition duration-300 p-3 px-8 shadow-xl shadow-slate-200': isActive,
+                  'bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl hover:animate-pulse transition duration-300 p-3 px-8': isActive,
                 }
               )}
             >
