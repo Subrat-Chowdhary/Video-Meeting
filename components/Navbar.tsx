@@ -13,7 +13,7 @@ const Navbar = () => {
           width={120}
           height={60}
           alt="viliyologo"
-          className="max-sm:size-10"
+          className="max-sm:size-100"
         />
  
       </Link>
