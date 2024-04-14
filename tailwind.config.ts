@@ -42,6 +42,12 @@ const config = {
           3: '#9e4a9e',
           4: '#be75be',
         },
+        darkpurple: {
+          1: '#9906df',
+          2: '#7705ae',
+          3: '#55047c',
+          4: '#33024a',
+        },
         yellow: {
           1: '#ff00ff',
         },
