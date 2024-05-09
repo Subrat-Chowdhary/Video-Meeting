@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/viliyologo.svg",
+            logoImageUrl: "/icons/mfslogo_final.png",
           },
           variables: {
             colorText: "#fff",
@@ -35,6 +35,7 @@ export default function RootLayout({
             colorBackground: "#1C1F2E",
             colorInputBackground: "#252A41",
             colorInputText: "#fff",
+            
           },
         }}
       >

@@ -27,6 +27,8 @@ export const useGetCalls = () => {
           },
         });
 
+        console.log("useGetCalls triggered : ",calls);
+
         setCalls(calls);
       } catch (error) {
         console.error(error);

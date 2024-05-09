@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -85,6 +87,10 @@
   .cl-button__github {
     filter: invert(1)
   }
+
+  .testme {
+    background-color: color-mix(in srgb, purple 50%, pink 50%) ;
+  }
 /* =============================== */
 
 @layer utilities {
@@ -117,3 +123,5 @@
     width: 100%;
   }
 }
+
+
