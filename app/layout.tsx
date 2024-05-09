@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "viliyo - meeting",
   description: "Video Meeting App",
   icons: {
-    icon: "/icons/fav1.png",
+    icon: "/icons/fav3.png",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/mfslogo_final.png",
+            logoImageUrl: "/icons/myLogo1.png",
           },
           variables: {
             colorText: "#fff",

@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
       <Link href="/" className="flex items-center gap-1">
         <Image
-          src="/icons/mfslogo_final.png"
+          src="/icons/myLogo1.png"
           width={120}
           height={60}
           alt="MFSlogo"

@@ -26,7 +26,7 @@ const MobileNav = () => {
         <SheetContent side="left" className="border-none bg-dark-1">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/mfslogo_final.png"
+              src="/icons/myLogo1.png"
               width={120}
               height={60}
               alt="MFSlogo"
