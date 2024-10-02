@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata: Metadata = {
-  title: 'viliyo Meeting',
+  title: 'video Meeting',
   description: 'Powered by Stream Chat and Clerk.',
 };
 
