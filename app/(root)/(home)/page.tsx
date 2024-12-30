@@ -11,10 +11,10 @@ const Home = () => {
 
   return (
     <section className="flex size-full flex-col gap-5 text-white">
-      <div className="h-[303px] w-full rounded-[20px] bg-hero bg-cover">
+      <div className="h-[240px] md:h-[303px] w-full rounded-[20px] bg-hero bg-cover">
         <div className="flex h-full flex-col justify-between max-md:px-12 max-md:py-12 lg:p-11 rounded-full md:p-16">
-          <h2 className="glassmorphism max-w-[273px] rounded py-2 text-center text-base text-yellow-500 font-extrabold">
-            Development Environment..
+          <h2 className="glassmorphism max-w-[273px] rounded-xl py-2 text-center text-2xl  text-gray-100 font-extrabold">
+            Development Server
           </h2>
           <div className="flex flex-col gap-2">
             <h1 className="text-4xl font-extrabold lg:text-2xl">Hey <span className="text-yellow-400">{user?.firstName}!</span></h1>

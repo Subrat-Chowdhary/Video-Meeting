@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "video - meeting",
   description: "Video Meeting App",
   icons: {
-    icon: "/icons/fav1.png",
+    icon: "/icons/testlogo.png",
   },
 };
 
@@ -23,27 +23,33 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
-      <ClerkProvider
-        appearance={{
-          layout: {
-            socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/mfslogo_final.png",
-          },
-          variables: {
-            colorText: "#fff",
-            colorPrimary: "#A020F0",
-            colorBackground: "#1C1F2E",
-            colorInputBackground: "#252A41",
-            colorInputText: "#fff",
-            
-          },
-        }}
-      >
-        <body className={`${inter.className} bg-dark-4`}>
-          <Toaster />
-          {children}
-        </body>
-      </ClerkProvider>
+<ClerkProvider
+  appearance={{
+    layout: {
+      socialButtonsVariant: "iconButton",
+      logoImageUrl: "@/public/icons/testlogo.png",
+    },
+    variables: {
+      colorText: "#fff",
+      colorPrimary: "#A020F0",
+      colorBackground: "#1C1F2E",
+      colorInputBackground: "#252A41",
+      colorInputText: "#fff",
+    },
+    elements: {
+      logoImage: {
+        width: "400px", // Adjust the width as needed
+        height: "auto", // Maintain aspect ratio
+      },
+    },
+  }}
+>
+  <body className={`${inter.className} bg-dark-4`}>
+    <Toaster />
+    {children}
+  </body>
+</ClerkProvider>
+
     </html>
   );
 }
