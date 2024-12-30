@@ -24,7 +24,10 @@ const Alert = ({ title, iconUrl }: PermissionCardProps) => {
               <p className="text-center text-xl font-semibold">{title}</p>
             </div>
 
-            <Button asChild className="bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8">
+            <Button
+              asChild
+              className="bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8"
+            >
               <Link href="/">Back to Home</Link>
             </Button>
           </div>

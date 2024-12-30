@@ -4,12 +4,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { Sheet, SheetClose, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 import { sidebarLinks } from '@/constants';
 import { cn } from '@/lib/utils';
-import testlogo from '@/public/icons/testlogo.png'
-import Burger_Menu from '@/public/icons/Burger_Menu.webp'
-
+import testlogo from '@/public/icons/testlogo.png';
+import Burger_Menu from '@/public/icons/Burger_Menu.webp';
 
 const MobileNav = () => {
   const pathname = usePathname();
@@ -26,17 +30,15 @@ const MobileNav = () => {
             className="cursor-pointer sm:hidden"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="border-none bg-dark-1 overflow-y-auto">
+        <SheetContent
+          side="left"
+          className="border-none bg-dark-1 overflow-y-auto"
+        >
           <Link href="/" className="flex items-center gap-1">
-            <Image
-              src={testlogo}
-              width={200}
-              height={80}
-              alt="TestLogo"
-            />                      
+            <Image src={testlogo} width={200} height={80} alt="TestLogo" />
           </Link>
-          <p className='text-white text-2xl font-bold'>Video-Meeting-App</p>
-          <p className='text-white font-thin'>Developed by Subrat</p>
+          <p className="text-white text-2xl font-bold">Video-Meeting-App</p>
+          <p className="text-white font-thin">Developed by Subrat</p>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
               <section className=" flex h-full flex-col gap-6 pt-16 text-white">
@@ -51,8 +53,9 @@ const MobileNav = () => {
                         className={cn(
                           'flex gap-4 items-center p-4 rounded-lg w-full max-w-60',
                           {
-                            'bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8': isActive,
-                          }
+                            'bg-gradient-to-r from-purple-950 to-purple-500 text-white font-bold rounded-3xl transition duration-300 p-3 px-8':
+                              isActive,
+                          },
                         )}
                       >
                         <Image
