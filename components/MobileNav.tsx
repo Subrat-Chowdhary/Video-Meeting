@@ -13,7 +13,7 @@ import {
 import { sidebarLinks } from '@/constants';
 import { cn } from '@/lib/utils';
 import testlogo from '@/public/icons/testlogo.png';
-import Burger_Menu from '@/public/icons/Burger_Menu.webp';
+import burgermenu from '@/public/icons/Burger_Menu.webp';
 
 const MobileNav = () => {
   const pathname = usePathname();
@@ -23,7 +23,7 @@ const MobileNav = () => {
       <Sheet>
         <SheetTrigger asChild>
           <Image
-            src={Burger_Menu}
+            src={burgermenu}
             width={60}
             height={36}
             alt="hamburger icon"
