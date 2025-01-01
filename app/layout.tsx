@@ -38,8 +38,10 @@ export default function RootLayout({
           },
           elements: {
             logoImage: {
-              width: '120px', // Adjust the width as needed
-              height: 'auto', // Maintain aspect ratio
+              width: '100px', // Adjust the width as needed
+              height: 'auto',
+              marginTop:'10px',
+              marginBottom:'10px', // Maintain aspect ratio
             },
           },
         }}
