@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: 'iconButton',
-            logoImageUrl: '@/public/icons/testlogo.png',
+            // logoImageUrl: '@/public/icons/testlogo.png',
           },
           variables: {
             colorText: '#fff',
@@ -38,7 +38,7 @@ export default function RootLayout({
           },
           elements: {
             logoImage: {
-              width: '400px', // Adjust the width as needed
+              width: '120px', // Adjust the width as needed
               height: 'auto', // Maintain aspect ratio
             },
           },
